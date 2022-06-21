@@ -70,7 +70,7 @@ print(y_train.shape)
 ###### Normalizing. ######
 x_train = x_train / 255
 x_val = x_val / 255
-#x_test = x_test/255
+x_test = x_test/255
 
 ###### Optimized Neural Network. ######
 model = keras.models.Sequential()
